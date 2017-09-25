@@ -8,6 +8,8 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Vidly.Models;
 using Vidly.ViewModels.Manage;
+using Vidly.ViewModels.Manage.Password;
+using Vidly.ViewModels.Manage.Phone;
 
 namespace Vidly.Controllers
 {
