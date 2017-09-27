@@ -1,5 +1,6 @@
 ﻿using System.Data.Entity;
 using System.Linq;
+using System.Runtime.Caching;
 using System.Web.Mvc;
 using Vidly.Models;
 using Vidly.Models.DbContext;
@@ -67,7 +68,7 @@ namespace Vidly.Controllers
 
         public ViewResult Index()
         {
-           
+         
 
             return View();
         }
